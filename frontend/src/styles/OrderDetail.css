@@ -1,0 +1,137 @@
+.order-detail-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: teal;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.tabs button.active {
+  background-color: teal;
+  color: white;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.order-header .status-badge {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.order-header .status-badge.ready-for-review {
+  background-color: orange;
+  color: white;
+}
+
+.order-header .status-badge.verified {
+  background-color: green;
+  color: white;
+}
+
+.order-header .progress-bar {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  position: relative;
+}
+
+.order-header .progress-bar .progress {
+  height: 10px;
+  background-color: teal;
+  transition: width 0.3s ease;
+}
+
+.order-details-section {
+  margin-top: 20px;
+}
+
+.order-fields, .job-details, .attachments {
+  margin-bottom: 20px;
+}
+
+.order-fields .field, .job-details .field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.order-fields .field label,
+.job-details .field label {
+  font-weight: bold;
+}
+
+.order-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.order-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.order-buttons button:first-child {
+  background-color: teal;
+}
+
+.order-buttons button:first-child:hover {
+  background-color: #005959;
+}
+
+.order-buttons button:last-child {
+  background-color: #ff4d4d;
+}
+
+.order-buttons button:last-child:hover {
+  background-color: #cc0000;
+}
+
+.activity-log {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.activity-log .log-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.activity-log .log-item:last-child {
+  border-bottom: none;
+}

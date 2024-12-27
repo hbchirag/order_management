@@ -1,0 +1,30 @@
+<Order>
+  <OrderId>4</OrderId>
+  <CustomerId>3</CustomerId>
+  <CustomerRef>ORD-789</CustomerRef>
+  <Currency>USD</Currency>
+  <Jobs>
+    <Job>
+      <Sequence>1</Sequence>
+      <TaskDescription>Load</TaskDescription>
+      <Address>123 Main Street, City, Country</Address>
+      <TimeIsFixed>true</TimeIsFixed>
+      <SpecificDate>2024-12-28</SpecificDate>
+      <StartTime>10:00:00</StartTime>
+      <EndTime>14:00:00</EndTime>
+      <DateRangeStart/>
+      <DateRangeEnd/>
+    </Job>
+    <Job>
+      <Sequence>2</Sequence>
+      <TaskDescription>Unload</TaskDescription>
+      <Address>456 Another Street, City, Country</Address>
+      <TimeIsFixed>false</TimeIsFixed>
+      <SpecificDate/>
+      <StartTime/>
+      <EndTime/>
+      <DateRangeStart>2024-12-29</DateRangeStart>
+      <DateRangeEnd>2024-12-30</DateRangeEnd>
+    </Job>
+  </Jobs>
+</Order>
